@@ -1,0 +1,20 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Home assignment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "solution": "node --experimental-json-modules --experimental-specifier-resolution=node src/index",
+    "test": "mocha --node-option experimental-specifier-resolution=node '**/tests/*.test.js'"
+  },
+  "keywords": [
+    "assignment",
+    "clicks"
+  ],
+  "author": "Fernando Ramos González",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
